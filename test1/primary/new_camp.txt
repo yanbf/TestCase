@@ -1,0 +1,6 @@
+晓杰实现方式：
+driver.find_element_by_xpath("ml/body/div[5]/div[1]/div[1]/div/fieldset/form/div[4]/div[2]/div[1]/span/span[1]/span/span[1]").click()
+        time.sleep(2)
+        driver.find_element_by_css_selector("input.select2-search__field").clear()
+        driver.find_element_by_css_selector("input.select2-search__field").send_keys("123-(310)")
+        driver.find_element_by_css_selector("input.select2-search__field").send_keys(Keys.ENTER)
